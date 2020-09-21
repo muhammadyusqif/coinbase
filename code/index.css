@@ -3,7 +3,7 @@
     margin: 0;
 }
 #con1{
-height: 100vh;
+    height: 100vh;
 }
 #con2{
     background-image:linear-gradient(#FD749B, #281AC8);
@@ -95,27 +95,27 @@ span{
     text-align: center;
   }
   .text{
-      margin-top: 45px;
-      margin-right: 35px;
+    margin-top: 45px;
+    margin-right: 35px;
   }
   #a{
-      font-size: 30px;
-      padding: 0 20px 0 20px;
-      margin-right: 0;
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+    margin-right: 0;
   }
   span{
     font-weight: bold;
   }
   #b{
-      font-size: 15px;
-      padding: 0 20px 0 20px;
-      margin-right: 0;
+    font-size: 15px;
+    padding: 0 20px 0 20px;
+    margin-right: 0;
   }
   .custom-shape-divider-bottom-1600235495 svg{
-        height: 50px;   
+    height: 50px;   
   }
   #button{
-      margin-left: 0;
+    margin-left: 0;
   }
 }
 
@@ -132,36 +132,36 @@ span{
     flex-direction: column;
   }
   .con2-1{
-      order: 2;
-      height: 38em;
+    order: 2;
+    height: 38em;
   }
   .con2-img{
     order: 1;
-    margin-top: 3em
-    align-self: center
+    margin-top: 3em;
+    align-self: center;
   }
   .text{
-      margin-top: 45px;
-      margin-right: 35px;
+    margin-top: 45px;
+    margin-right: 35px;
   }
   #a{
-      font-size: 30px;
-      padding: 0 20px 0 20px;
-      margin-right: 0;
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+    margin-right: 0;
   }
   span{
     font-weight: bold;
   }
   #b{
-      font-size: 15px;
-      padding: 0 20px 0 20px;
-      margin-right: 0;
+    font-size: 15px;
+    padding: 0 20px 0 20px;
+    margin-right: 0;
   }
   .custom-shape-divider-bottom-1600235495 svg{
-        height: 50px;   
+    height: 50px;   
   }
   #button{
-      margin-left: 0;
+    margin-left: 0;
   }
 }
 
@@ -188,30 +188,80 @@ span{
   }
   .con2-img{
     order: 1;
-    margin-top: 3em
-    align-self: center
+    margin-top: 3em;
+    align-self: center;
   }
   .text{
-      margin-top: 45px;
-      margin-right: 35px;
+    margin-top: 45px;
+    margin-right: 35px;
   }
   #a{
-      font-size: 30px;
-      padding: 0 20px 0 20px;
-      margin-right: 0;
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+    margin-right: 0;
   }
   span{
     font-weight: bold;
   }
   #b{
-      font-size: 15px;
-      padding: 0 20px 0 20px;
-      margin-right: 0;
+    font-size: 15px;
+    padding: 0 20px 0 20px;
+    margin-right: 0;
   }
   .custom-shape-divider-bottom-1600235495 svg{
-        height: 50px;   
+    height: 50px;   
   }
   #button{
-      margin-left: 0;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.gambar {
+    display: block;
+    width: 95%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+  }
+#con2{
+    height: 71em;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+  }
+  .con2-1{
+    order: 2;
+    height: 1000px;
+    margin: auto;
+  }
+  .con2-img{
+    order: 1;
+    margin-top: 3em;
+    align-self: center;
+    margin: auto;
+  }
+  .text{
+    margin-top: 45px;
+    margin-right: 35px;
+  }
+  #a{
+    font-size: 7vh;
+    padding: 0 20px 0 20px;
+    margin-right: 0;
+  }
+  span{
+    font-weight: bold;
+  }
+  #b{
+    font-size: 3.5vh;
+    padding: 0 20px 0 20px;
+    margin-right: 0;
+  }
+  .custom-shape-divider-bottom-1600235495 svg{
+    height: 75px;
+  }
+  #button{
+    margin-left: 0;
   }
 }
