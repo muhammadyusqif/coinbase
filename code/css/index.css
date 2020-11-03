@@ -1,0 +1,144 @@
+@import url('./responsive.css');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#con1 {
+  height: 100vh;
+}
+
+#con2 {
+  background-image: linear-gradient(#FD749B, #281AC8);
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  align-items: center;
+}
+
+.custom-shape-divider-bottom-1600235495 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1600235495 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 126px;
+}
+
+.custom-shape-divider-bottom-1600235495 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.gambar {
+  width: 600px;
+  height: 500px;
+}
+
+.text #button {
+  float: left;
+  width: 50%;
+}
+
+span {
+  font-weight: bold;
+}
+
+#a {
+  font-size: 40px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+  padding-left: 45px;
+
+}
+
+#b {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  padding-left: 45px;
+
+}
+
+#button {
+  background-color: #FFFFFF;
+  height: 54px;
+  width: 157px;
+  border: none;
+  border-radius: 50px;
+  margin-left: 45px;
+}
+
+#button:hover {
+  box-shadow: 7px 10px 24px 0px rgba(36, 36, 36, 0.61);
+}
+
+#text-button {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  background: linear-gradient(to bottom, #FD749B 0%, #281AC8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navbar */
+.navbar {
+  height: 90px;
+  background-color: #fff;
+}
+
+.navbar-brand img {
+  width: 142px;
+  height: 28px;
+}
+
+.navbar-nav {
+  margin-top: 0.5em !important; 
+}
+
+.navbar-nav:first-child {
+  padding: 4em !important;
+}
+
+.navbar-nav:first-child .nav-item {
+  padding-left: 1em !important;
+  color: red !important
+}
+
+.navbar-nav a {
+  font-family: 'Poppins', sans-serif;
+  color: #333333 !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar-nav:last-child .nav-item.navbar-login  {
+  width: 157px;
+  height: 54px;
+  background: linear-gradient(to bottom, #FD749B 0%, #281AC8 100%);
+  border-radius: 100px;
+}
+
+.navbar-nav:last-child .nav-item.navbar-login a {
+  color: #fff !important;
+  line-height: 30px !important;
+}
+
+/* 
+#navbarNavDropdown {
+    justify-content: space-around;
+} */
